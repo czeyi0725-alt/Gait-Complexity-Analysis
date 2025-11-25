@@ -1,0 +1,56 @@
+================================================================================
+WITHIN-BLOCK TRIAL MIXED-EFFECTS ANALYSIS RESULTS
+================================================================================
+
+Research Question: Does entropy increase across consecutive trials
+within the same block (T01 -> T02 -> T03)?
+This tests SHORT-TERM fatigue accumulation within each ~3-trial block.
+
+Model: symb ~ Trial_within_block + C(group) + Day_num + Trial_within_block:C(group) + Trial_within_block:Day_num
+Random effects: (1 | subject)
+
+                     Mixed Linear Model Regression Results
+================================================================================
+Model:                     MixedLM         Dependent Variable:         symb     
+No. Observations:          1340            Method:                     REML     
+No. Groups:                76              Scale:                      0.0041   
+Min. group size:           9               Log-Likelihood:             1637.7422
+Max. group size:           18              Converged:                  Yes      
+Mean group size:           17.6                                                 
+--------------------------------------------------------------------------------
+                                     Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+--------------------------------------------------------------------------------
+Intercept                             2.292    0.020 116.787 0.000  2.253  2.330
+C(group)[T.young]                    -0.005    0.021  -0.223 0.823 -0.045  0.036
+Trial_within_block                    0.006    0.007   0.861 0.389 -0.008  0.020
+Trial_within_block:C(group)[T.young] -0.002    0.004  -0.561 0.575 -0.011  0.006
+Day_num                              -0.000    0.009  -0.049 0.961 -0.019  0.018
+Trial_within_block:Day_num           -0.001    0.004  -0.205 0.837 -0.009  0.007
+Group Var                             0.006    0.018                            
+================================================================================
+
+
+================================================================================
+INTERPRETATION:
+================================================================================
+
+1. Within-block trial effect (main):
+   Coefficient: 0.006011, p = 0.389354
+   95% CI: [-0.007676, 0.019698]
+   Not significant - no systematic within-block entropy trend
+
+2. Trial × Group interaction:
+   Coefficient: -0.002398, p = 0.574825
+   OLD slope: 0.006011
+   YOUNG slope: 0.003613
+
+3. Trial × Day interaction:
+   Coefficient: -0.000876, p = 0.837282
+
+================================================================================
+CONCLUSION:
+================================================================================
+There is NO significant evidence that entropy systematically increases
+across consecutive trials within blocks (T01→T02→T03).
+This suggests that short-term fatigue (within ~3 trials) does not
+manifest as increasing symbolic entropy.

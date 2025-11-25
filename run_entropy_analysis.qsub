@@ -1,0 +1,16 @@
+#!/bin/bash
+#$ -N run_entropy_analysis
+#$ -q long
+#$ -pe smp 1
+#$ -l h_vmem=32G
+#$ -l h_rt=06:00:00
+#$ -m abe
+#$ -M czeyi@nd.edu
+#$ -o entropy_analysis.$JOB_ID.log
+#$ -cwd
+
+echo "Loading MATLAB module..."
+module load matlab
+
+echo "Starting entropy trend analysis..."
+matlab -nodisplay -nosplash -r "try, analyze_entropy_trends(); catch ME, disp(ME.message); exit(1); end; exit(0);"

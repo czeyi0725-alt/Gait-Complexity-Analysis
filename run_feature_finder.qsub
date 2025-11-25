@@ -1,0 +1,20 @@
+#!/bin/bash
+#$ -N feature_finder_D01_B01_T01
+#$ -q long
+#$ -pe smp 1
+#$ -l h_vmem=16G
+#$ -l h_rt=15:00:00
+#$ -m e
+#$ -M czeyi@nd.edu
+#$ -o feature_finder_output.$JOB_ID.log
+#$ -cwd
+
+echo "Loading MATLAB module..."
+module load matlab
+
+OLD_PATH="gait_old_full/by_condition/G03_D01_B01_T01"
+YOUNG_PATH="gait_young_full/by_condition/G01_D01_B01_T01"
+
+echo "Starting Feature Finding for $OLD_PATH vs $YOUNG_PATH"
+matlab -nodisplay -nosplash -r "find_significant_features('$OLD_PATH', '$YOUNG_PATH'); exit;"
+echo "Feature finding complete."

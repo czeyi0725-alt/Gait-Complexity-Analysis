@@ -1,0 +1,535 @@
+Loading MATLAB module...
+Starting MATLAB analysis for test condition: D01_B01_T01
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+                  R2023b (23.2.0.2365128) 64-bit (glnxa64)
+                              August 23, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+============================================================
+Starting Full Entropy Analysis for Feature: FootPitchLT_deg_
+  Old Group: gait_old_full/by_condition/G03_D01_B01_T01
+  Young Group: gait_young_full/by_condition/G01_D01_B01_T01
+============================================================
+Found 41 CSV files in old group
+Found 35 CSV files in young group
+Found a total of 76 files for analysis.
+Target feature "FootPitchLT_deg_" found at column index: 156
+
+--- PHASE 1: EXPLORING OPTIMAL PARAMETERS ---
+  Exploring: S009_G03_D01_B01_T01
+  Exploring: S013_G03_D01_B01_T01
+  Exploring: S019_G03_D01_B01_T01
+  Exploring: S040_G03_D01_B01_T01
+  Exploring: S081_G03_D01_B01_T01
+  Exploring: S102_G03_D01_B01_T01
+  Exploring: S103_G03_D01_B01_T01
+  Exploring: S104_G03_D01_B01_T01
+  Exploring: S107_G03_D01_B01_T01
+  Exploring: S109_G03_D01_B01_T01
+  Exploring: S110_G03_D01_B01_T01
+  Exploring: S112_G03_D01_B01_T01
+  Exploring: S113_G03_D01_B01_T01
+  Exploring: S116_G03_D01_B01_T01
+  Exploring: S119_G03_D01_B01_T01
+  Exploring: S120_G03_D01_B01_T01
+  Exploring: S123_G03_D01_B01_T01
+  Exploring: S125_G03_D01_B01_T01
+  Exploring: S126_G03_D01_B01_T01
+  Exploring: S127_G03_D01_B01_T01
+  Exploring: S128_G03_D01_B01_T01
+  Exploring: S129_G03_D01_B01_T01
+  Exploring: S130_G03_D01_B01_T01
+  Exploring: S131_G03_D01_B01_T01
+  Exploring: S133_G03_D01_B01_T01
+  Exploring: S134_G03_D01_B01_T01
+  Exploring: S135_G03_D01_B01_T01
+  Exploring: S136_G03_D01_B01_T01
+  Exploring: S137_G03_D01_B01_T01
+  Exploring: S138_G03_D01_B01_T01
+  Exploring: S139_G03_D01_B01_T01
+  Exploring: S140_G03_D01_B01_T01
+  Exploring: S141_G03_D01_B01_T01
+  Exploring: S142_G03_D01_B01_T01
+  Exploring: S143_G03_D01_B01_T01
+  Exploring: S145_G03_D01_B01_T01
+  Exploring: S146_G03_D01_B01_T01
+  Exploring: S154_G03_D01_B01_T01
+  Exploring: S156_G03_D01_B01_T01
+  Exploring: S157_G03_D01_B01_T01
+  Exploring: S158_G03_D01_B01_T01
+  Exploring: S001_G01_D01_B01_T01
+  Exploring: S002_G01_D01_B01_T01
+  Exploring: S003_G01_D01_B01_T01
+  Exploring: S004_G01_D01_B01_T01
+  Exploring: S005_G01_D01_B01_T01
+  Exploring: S006_G01_D01_B01_T01
+  Exploring: S007_G01_D01_B01_T01
+  Exploring: S008_G01_D01_B01_T01
+  Exploring: S010_G01_D01_B01_T01
+  Exploring: S011_G01_D01_B01_T01
+  Exploring: S012_G01_D01_B01_T01
+  Exploring: S014_G01_D01_B01_T01
+  Exploring: S015_G01_D01_B01_T01
+  Exploring: S016_G01_D01_B01_T01
+  Exploring: S017_G01_D01_B01_T01
+  Exploring: S018_G01_D01_B01_T01
+  Exploring: S020_G01_D01_B01_T01
+  Exploring: S021_G01_D01_B01_T01
+  Exploring: S023_G01_D01_B01_T01
+  Exploring: S024_G01_D01_B01_T01
+  Exploring: S025_G01_D01_B01_T01
+  Exploring: S026_G01_D01_B01_T01
+  Exploring: S027_G01_D01_B01_T01
+  Exploring: S028_G01_D01_B01_T01
+  Exploring: S030_G01_D01_B01_T01
+  Exploring: S031_G01_D01_B01_T01
+  Exploring: S032_G01_D01_B01_T01
+  Exploring: S033_G01_D01_B01_T01
+  Exploring: S034_G01_D01_B01_T01
+  Exploring: S035_G01_D01_B01_T01
+  Exploring: S036_G01_D01_B01_T01
+  Exploring: S037_G01_D01_B01_T01
+  Exploring: S038_G01_D01_B01_T01
+  Exploring: S039_G01_D01_B01_T01
+  Exploring: S063_G01_D01_B01_T01
+
+
+--- PHASE 2: GLOBAL PARAMETERS DETERMINED ---
+  Global m: 4, Global tau: 50
+
+
+--- PHASE 3: STARTING FINAL ANALYSIS ---
+
+Processing Group: old
+  Processing: S009_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S013_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S019_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S040_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S081_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S102_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S103_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S104_G03_D01_B01_T01
+[Warning: Failed to converge in 500 iterations during replicate 1.] 
+[> In kmeans/loopBody (line 484)
+In internal.stats.parallel.smartForReduce (line 136)
+In kmeans (line 346)
+In process_gait_data (line 102)] 
+    Optimal C: 4
+  Processing: S107_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S109_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S110_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S112_G03_D01_B01_T01
+    Optimal C: 5
+  Processing: S113_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S116_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S119_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S120_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S123_G03_D01_B01_T01
+    Optimal C: 5
+  Processing: S125_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S126_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S127_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S128_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S129_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S130_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S131_G03_D01_B01_T01
+    Optimal C: 5
+  Processing: S133_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S134_G03_D01_B01_T01
+    Optimal C: 5
+  Processing: S135_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S136_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S137_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S138_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S139_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S140_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S141_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S142_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S143_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S145_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S146_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S154_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S156_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S157_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S158_G03_D01_B01_T01
+    Optimal C: 4
+
+Processing Group: young
+  Processing: S001_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S002_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S003_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S004_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S005_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S006_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S007_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S008_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S010_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S011_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S012_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S014_G01_D01_B01_T01
+    Optimal C: 5
+  Processing: S015_G01_D01_B01_T01
+    Optimal C: 5
+  Processing: S016_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S017_G01_D01_B01_T01
+    Optimal C: 5
+  Processing: S018_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S020_G01_D01_B01_T01
+[Warning: Failed to converge in 500 iterations during replicate 1.] 
+[> In kmeans/loopBody (line 484)
+In internal.stats.parallel.smartForReduce (line 136)
+In kmeans (line 346)
+In process_gait_data (line 102)] 
+    Optimal C: 5
+  Processing: S021_G01_D01_B01_T01
+    Optimal C: 5
+  Processing: S023_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S024_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S025_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S026_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S027_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S028_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S030_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S031_G01_D01_B01_T01
+[Warning: Failed to converge in 500 iterations during replicate 3.] 
+[> In kmeans/loopBody (line 484)
+In internal.stats.parallel.smartForReduce (line 136)
+In kmeans (line 346)
+In process_gait_data (line 102)] 
+    Optimal C: 4
+  Processing: S032_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S033_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S034_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S035_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S036_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S037_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S038_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S039_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S063_G01_D01_B01_T01
+    Optimal C: 4
+
+--- Individual Entropy Results ---
+
+Group: old
+  Subject: S009_G03_D01_B01_T01
+    Symbolic Entropy: 2.2931
+    Permutation Entropy: 0.2236
+  Subject: S013_G03_D01_B01_T01
+    Symbolic Entropy: 2.2853
+    Permutation Entropy: 0.2273
+  Subject: S019_G03_D01_B01_T01
+    Symbolic Entropy: 2.2806
+    Permutation Entropy: 0.2235
+  Subject: S040_G03_D01_B01_T01
+    Symbolic Entropy: 2.2596
+    Permutation Entropy: 0.2235
+  Subject: S081_G03_D01_B01_T01
+    Symbolic Entropy: 2.2423
+    Permutation Entropy: 0.2237
+  Subject: S102_G03_D01_B01_T01
+    Symbolic Entropy: 2.2531
+    Permutation Entropy: 0.2256
+  Subject: S103_G03_D01_B01_T01
+    Symbolic Entropy: 2.2358
+    Permutation Entropy: 0.2191
+  Subject: S104_G03_D01_B01_T01
+    Symbolic Entropy: 2.2584
+    Permutation Entropy: 0.2222
+  Subject: S107_G03_D01_B01_T01
+    Symbolic Entropy: 2.2609
+    Permutation Entropy: 0.2231
+  Subject: S109_G03_D01_B01_T01
+    Symbolic Entropy: 2.2588
+    Permutation Entropy: 0.2355
+  Subject: S110_G03_D01_B01_T01
+    Symbolic Entropy: 2.2438
+    Permutation Entropy: 0.2361
+  Subject: S112_G03_D01_B01_T01
+    Symbolic Entropy: 2.5951
+    Permutation Entropy: 0.2257
+  Subject: S113_G03_D01_B01_T01
+    Symbolic Entropy: 2.2604
+    Permutation Entropy: 0.2210
+  Subject: S116_G03_D01_B01_T01
+    Symbolic Entropy: 2.2846
+    Permutation Entropy: 0.2199
+  Subject: S119_G03_D01_B01_T01
+    Symbolic Entropy: 2.2694
+    Permutation Entropy: 0.2211
+  Subject: S120_G03_D01_B01_T01
+    Symbolic Entropy: 2.2729
+    Permutation Entropy: 0.2242
+  Subject: S123_G03_D01_B01_T01
+    Symbolic Entropy: 2.6094
+    Permutation Entropy: 0.2535
+  Subject: S125_G03_D01_B01_T01
+    Symbolic Entropy: 2.2507
+    Permutation Entropy: 0.2240
+  Subject: S126_G03_D01_B01_T01
+    Symbolic Entropy: 2.2619
+    Permutation Entropy: 0.2224
+  Subject: S127_G03_D01_B01_T01
+    Symbolic Entropy: 2.2425
+    Permutation Entropy: 0.2227
+  Subject: S128_G03_D01_B01_T01
+    Symbolic Entropy: 2.2840
+    Permutation Entropy: 0.2246
+  Subject: S129_G03_D01_B01_T01
+    Symbolic Entropy: 2.2845
+    Permutation Entropy: 0.2211
+  Subject: S130_G03_D01_B01_T01
+    Symbolic Entropy: 2.2775
+    Permutation Entropy: 0.2240
+  Subject: S131_G03_D01_B01_T01
+    Symbolic Entropy: 2.6186
+    Permutation Entropy: 0.2111
+  Subject: S133_G03_D01_B01_T01
+    Symbolic Entropy: 2.2842
+    Permutation Entropy: 0.2284
+  Subject: S134_G03_D01_B01_T01
+    Symbolic Entropy: 2.5137
+    Permutation Entropy: 0.2271
+  Subject: S135_G03_D01_B01_T01
+    Symbolic Entropy: 2.2847
+    Permutation Entropy: 0.2496
+  Subject: S136_G03_D01_B01_T01
+    Symbolic Entropy: 2.2796
+    Permutation Entropy: 0.2251
+  Subject: S137_G03_D01_B01_T01
+    Symbolic Entropy: 2.2793
+    Permutation Entropy: 0.2263
+  Subject: S138_G03_D01_B01_T01
+    Symbolic Entropy: 2.2912
+    Permutation Entropy: 0.2270
+  Subject: S139_G03_D01_B01_T01
+    Symbolic Entropy: 2.2688
+    Permutation Entropy: 0.2248
+  Subject: S140_G03_D01_B01_T01
+    Symbolic Entropy: 2.2649
+    Permutation Entropy: 0.2198
+  Subject: S141_G03_D01_B01_T01
+    Symbolic Entropy: 2.2809
+    Permutation Entropy: 0.2423
+  Subject: S142_G03_D01_B01_T01
+    Symbolic Entropy: 2.2477
+    Permutation Entropy: 0.2224
+  Subject: S143_G03_D01_B01_T01
+    Symbolic Entropy: 2.2209
+    Permutation Entropy: 0.2240
+  Subject: S145_G03_D01_B01_T01
+    Symbolic Entropy: 2.2817
+    Permutation Entropy: 0.2259
+  Subject: S146_G03_D01_B01_T01
+    Symbolic Entropy: 2.2601
+    Permutation Entropy: 0.2306
+  Subject: S154_G03_D01_B01_T01
+    Symbolic Entropy: 2.2771
+    Permutation Entropy: 0.2259
+  Subject: S156_G03_D01_B01_T01
+    Symbolic Entropy: 2.2916
+    Permutation Entropy: 0.2304
+  Subject: S157_G03_D01_B01_T01
+    Symbolic Entropy: 2.2808
+    Permutation Entropy: 0.2200
+  Subject: S158_G03_D01_B01_T01
+    Symbolic Entropy: 2.2470
+    Permutation Entropy: 0.2200
+
+Group: young
+  Subject: S001_G01_D01_B01_T01
+    Symbolic Entropy: 2.2424
+    Permutation Entropy: 0.2516
+  Subject: S002_G01_D01_B01_T01
+    Symbolic Entropy: 2.2196
+    Permutation Entropy: 0.2217
+  Subject: S003_G01_D01_B01_T01
+    Symbolic Entropy: 2.2648
+    Permutation Entropy: 0.2283
+  Subject: S004_G01_D01_B01_T01
+    Symbolic Entropy: 2.2416
+    Permutation Entropy: 0.2216
+  Subject: S005_G01_D01_B01_T01
+    Symbolic Entropy: 2.2832
+    Permutation Entropy: 0.2294
+  Subject: S006_G01_D01_B01_T01
+    Symbolic Entropy: 2.2523
+    Permutation Entropy: 0.2250
+  Subject: S007_G01_D01_B01_T01
+    Symbolic Entropy: 2.2399
+    Permutation Entropy: 0.2223
+  Subject: S008_G01_D01_B01_T01
+    Symbolic Entropy: 2.2884
+    Permutation Entropy: 0.2250
+  Subject: S010_G01_D01_B01_T01
+    Symbolic Entropy: 2.2773
+    Permutation Entropy: 0.2214
+  Subject: S011_G01_D01_B01_T01
+    Symbolic Entropy: 2.2552
+    Permutation Entropy: 0.2169
+  Subject: S012_G01_D01_B01_T01
+    Symbolic Entropy: 2.2383
+    Permutation Entropy: 0.2577
+  Subject: S014_G01_D01_B01_T01
+    Symbolic Entropy: 2.5887
+    Permutation Entropy: 0.2156
+  Subject: S015_G01_D01_B01_T01
+    Symbolic Entropy: 2.5957
+    Permutation Entropy: 0.2173
+  Subject: S016_G01_D01_B01_T01
+    Symbolic Entropy: 2.2778
+    Permutation Entropy: 0.2393
+  Subject: S017_G01_D01_B01_T01
+    Symbolic Entropy: 2.6755
+    Permutation Entropy: 0.2164
+  Subject: S018_G01_D01_B01_T01
+    Symbolic Entropy: 2.2793
+    Permutation Entropy: 0.2290
+  Subject: S020_G01_D01_B01_T01
+    Symbolic Entropy: 2.5965
+    Permutation Entropy: 0.2155
+  Subject: S021_G01_D01_B01_T01
+    Symbolic Entropy: 2.5899
+    Permutation Entropy: 0.2170
+  Subject: S023_G01_D01_B01_T01
+    Symbolic Entropy: 2.2331
+    Permutation Entropy: 0.2209
+  Subject: S024_G01_D01_B01_T01
+    Symbolic Entropy: 2.2545
+    Permutation Entropy: 0.2238
+  Subject: S025_G01_D01_B01_T01
+    Symbolic Entropy: 2.2791
+    Permutation Entropy: 0.2242
+  Subject: S026_G01_D01_B01_T01
+    Symbolic Entropy: 2.2790
+    Permutation Entropy: 0.2241
+  Subject: S027_G01_D01_B01_T01
+    Symbolic Entropy: 2.2509
+    Permutation Entropy: 0.2549
+  Subject: S028_G01_D01_B01_T01
+    Symbolic Entropy: 2.2914
+    Permutation Entropy: 0.2460
+  Subject: S030_G01_D01_B01_T01
+    Symbolic Entropy: 2.2421
+    Permutation Entropy: 0.2214
+  Subject: S031_G01_D01_B01_T01
+    Symbolic Entropy: 2.2743
+    Permutation Entropy: 0.2389
+  Subject: S032_G01_D01_B01_T01
+    Symbolic Entropy: 2.2508
+    Permutation Entropy: 0.2279
+  Subject: S033_G01_D01_B01_T01
+    Symbolic Entropy: 2.2588
+    Permutation Entropy: 0.2368
+  Subject: S034_G01_D01_B01_T01
+    Symbolic Entropy: 2.2780
+    Permutation Entropy: 0.2366
+  Subject: S035_G01_D01_B01_T01
+    Symbolic Entropy: 2.2555
+    Permutation Entropy: 0.2226
+  Subject: S036_G01_D01_B01_T01
+    Symbolic Entropy: 2.2750
+    Permutation Entropy: 0.2250
+  Subject: S037_G01_D01_B01_T01
+    Symbolic Entropy: 2.2465
+    Permutation Entropy: 0.2231
+  Subject: S038_G01_D01_B01_T01
+    Symbolic Entropy: 2.2524
+    Permutation Entropy: 0.2308
+  Subject: S039_G01_D01_B01_T01
+    Symbolic Entropy: 2.2632
+    Permutation Entropy: 0.2308
+  Subject: S063_G01_D01_B01_T01
+    Symbolic Entropy: 2.2685
+    Permutation Entropy: 0.2272
+
+--- Group Average Entropy Results ---
+
+Group: old
+  Avg Symb Entropy: 2.2985
+  Avg Perm Entropy: 0.2260
+
+Group: young
+  Avg Symb Entropy: 2.3103
+  Avg Perm Entropy: 0.2282
+
+--- Mann-Whitney U Test Comparisons (alpha = 0.05) ---
+
+--- k-means Symbolic Entropy ---
+  Old vs Young: p-value = 0.2227
+    Result: No significant difference (p >= 0.05).
+    Medians: Old=2.2771, Young=2.2648
+
+--- Permutation Entropy ---
+  Old vs Young: p-value = 0.6096
+    Result: No significant difference (p >= 0.05).
+    Medians: Old=0.2240, Young=0.2250
+
+--- Analysis Complete ---

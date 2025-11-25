@@ -1,0 +1,16 @@
+#!/bin/bash
+#$ -N plot_entropy_distribution
+#$ -q long
+#$ -pe smp 1
+#$ -l h_vmem=8G
+#$ -l h_rt=01:00:00
+#$ -m abe
+#$ -M czeyi@nd.edu
+#$ -o plot_entropy_distribution.$JOB_ID.log
+#$ -cwd
+
+echo "Loading MATLAB module..."
+module load matlab
+
+echo "Starting plotting: plot_entropy_distribution"
+matlab -nodisplay -nosplash -r "try, plot_entropy_distribution('entropy_analysis_results.csv', true); catch ME, disp(getReport(ME)); exit(1); end; exit(0);"

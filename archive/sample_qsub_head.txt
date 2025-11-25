@@ -1,0 +1,22 @@
+#!/bin/bash
+# 把实验条件放在任务名里，方便识别
+#$ -N D01_B01_T01
+#$ -q long
+#$ -pe smp 1
+#$ -l h_vmem=32G
+#$ -l h_rt=06:00:00
+#$ -m abe
+#$ -M czeyi@nd.edu
+
+# 使用一个简单的、统一的输出文件名格式
+#$ -o analysis_output.$JOB_ID.log
+#$ -cwd
+
+echo "Loading MATLAB module..."
+module load matlab
+
+echo "Starting MATLAB analysis for condition: D01_B01_T01"
+# 保持不变: 将两个路径作为参数传入
+matlab -nodisplay -nosplash -r "process_gait_data('gait_old_full/by_condition/G03_D01_B01_T01', 'gait_young_full/by_condition/G01_D01_B01_T01'); exit;"
+
+echo "MATLAB script finished for condition: D01_B01_T01"

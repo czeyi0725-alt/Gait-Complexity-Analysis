@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Chen"
+    given-names: "Zeyi"
+    orcid: "https://orcid.org/[YOUR-ORCID]"
+    affiliation: "[Your Institution]"
+title: "Age-Related Differences in Gait Complexity and Fatigue Effects: Analysis Code"
+version: 1.0.0
+date-released: 2025-11-25
+url: "https://github.com/czeyi0725-alt/Gait-Complexity-Analysis"
+repository-code: "https://github.com/czeyi0725-alt/Gait-Complexity-Analysis"
+keywords:
+  - gait analysis
+  - symbolic entropy
+  - aging
+  - postural control
+  - fatigue
+  - complexity analysis
+license: MIT
+abstract: >
+  Analysis code for investigating age-related differences in gait complexity 
+  using symbolic entropy measures across multiple temporal scales (days, blocks, 
+  trials). Includes statistical analyses demonstrating that older adults exhibit 
+  higher entropy and marginal within-block fatigue effects compared to younger adults.

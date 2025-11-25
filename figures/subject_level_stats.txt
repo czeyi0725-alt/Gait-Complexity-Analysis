@@ -1,0 +1,20 @@
+MixedLM summary:
+        Mixed Linear Model Regression Results
+======================================================
+Model:            MixedLM Dependent Variable: symb    
+No. Observations: 146     Method:             REML    
+No. Groups:       73      Scale:              0.0069  
+Min. group size:  2       Log-Likelihood:     149.0998
+Max. group size:  2       Converged:          Yes     
+Mean group size:  2.0                                 
+------------------------------------------------------
+           Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+------------------------------------------------------
+Intercept   2.288    0.010 234.404 0.000  2.269  2.307
+Day_num    -0.002    0.014  -0.124 0.901 -0.029  0.025
+Group Var   0.000    0.010                            
+======================================================
+
+
+Paired Wilcoxon: stat=865.000, p=0.011745
+Mean paired diff (D02 - D01)=-0.006563

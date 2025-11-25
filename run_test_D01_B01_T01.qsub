@@ -1,0 +1,16 @@
+#!/bin/bash
+#$ -N test_D01_B01_T01
+#$ -q long
+#$ -pe smp 1
+#$ -l h_vmem=32G
+#$ -l h_rt=06:00:00
+#$ -m abe
+#$ -M czeyi@nd.edu
+#$ -o test_analysis_output.$JOB_ID.log
+#$ -cwd
+
+echo "Loading MATLAB module..."
+module load matlab
+
+echo "Starting MATLAB analysis for test condition: D01_B01_T01"
+matlab -nodisplay -nosplash -r "process_gait_data('gait_old_full/by_condition/G03_D01_B01_T01', 'gait_young_full/by_condition/G01_D01_B01_T01'); exit;"

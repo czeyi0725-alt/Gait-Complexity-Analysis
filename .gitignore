@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MATLAB
+*.asv
+*.mat
+*.fig
+*.mex*
+*.p
+slprj/
+octave-workspace
+
+# Data files (keep only small samples)
+gait_old_full/
+gait_young_full/
+outputs/*.mat
+outputs/*.log
+logs/*.log
+by_condition/**/S[0-9]*/
+
+# Job scripts (generated per subject)
+run_job_*.qsub
+jobs/*.qsub
+
+# Large output files
+*.zip
+*.tar.gz
+*.gz
+analysis_output.*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.save

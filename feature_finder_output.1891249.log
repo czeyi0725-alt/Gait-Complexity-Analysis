@@ -1,0 +1,35 @@
+Loading MATLAB module...
+Starting Feature Finding for gait_old_full/by_condition/G03_D01_B01_T01 vs gait_young_full/by_condition/G01_D01_B01_T01
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+                  R2023b (23.2.0.2365128) 64-bit (glnxa64)
+                              August 23, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+============================================================
+Finding Significant Features for:
+  Old Group: gait_old_full/by_condition/G03_D01_B01_T01
+  Young Group: gait_young_full/by_condition/G01_D01_B01_T01
+============================================================
+Found 321 columns in the dataset.
+Testing feature (1/320): PelvisAccelSensorX_mG_
+Testing feature (2/320): PelvisAccelSensorY_mG_
+Testing feature (3/320): PelvisAccelSensorZ_mG_
+Testing feature (4/320): NoraxonMyoMotion_Segments_Pelvis_Acceleration_x_mG_
+Testing feature (5/320): NoraxonMyoMotion_Segments_Pelvis_Acceleration_y_mG_
+Testing feature (6/320): NoraxonMyoMotion_Segments_Pelvis_Acceleration_z_mG_
+Testing feature (7/320): NoraxonMyoMotion_Segments_Pelvis_Gyroscope_x_deg_s_
+Testing feature (8/320): NoraxonMyoMotion_Segments_Pelvis_Gyroscope_y_deg_s_
+Testing feature (9/320): NoraxonMyoMotion_Segments_Pelvis_Gyroscope_z_deg_s_
+Testing feature (10/320): PelvisCourse_deg_
+Testing feature (11/320): PelvisPitch_deg_
+Testing feature (12/320): PelvisRoll_deg_
+Testing feature (13/320): PelvicTiltLT_deg_
+Testing feature (14/320): PelvicObliquityLT_deg_
+Testing feature (15/320): PelvicRotationLT_deg_
+Testing feature (16/320): PelvicObliquityRT_deg_
+Testing feature (17/320): PelvicRotationRT_deg_

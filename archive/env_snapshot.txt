@@ -1,0 +1,7 @@
+crcfe01.crc.nd.edu
+Wed Oct 22 04:17:59 AM EDT 2025
+Currently Loaded Modulefiles:
+ 1) CRC_default/1.1(default)  
+
+Key:
+(symbolic-version)  

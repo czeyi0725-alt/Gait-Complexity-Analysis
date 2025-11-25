@@ -1,0 +1,22 @@
+#!/bin/bash
+# 把实验条件放在任务名里，方便识别
+#$ -N CONDITION_PLACEHOLDER
+#$ -q long
+#$ -pe smp 1
+#$ -l h_vmem=32G
+#$ -l h_rt=06:00:00
+#$ -m abe
+#$ -M czeyi@nd.edu
+
+# 使用一个简单的、统一的输出文件名格式
+#$ -o analysis_output.$JOB_ID.log
+#$ -cwd
+
+echo "Loading MATLAB module..."
+module load matlab
+
+echo "Starting MATLAB analysis for condition: CONDITION_PLACEHOLDER"
+# 保持不变: 将两个路径作为参数传入
+matlab -nodisplay -nosplash -r "process_gait_data('OLD_CONDITION_PATH_PLACEHOLDER', 'YOUNG_CONDITION_PATH_PLACEHOLDER'); exit;"
+
+echo "MATLAB script finished for condition: CONDITION_PLACEHOLDER"

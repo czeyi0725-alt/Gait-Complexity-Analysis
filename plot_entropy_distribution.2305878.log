@@ -1,0 +1,16 @@
+Loading MATLAB module...
+Starting plotting: plot_entropy_distribution
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+                  R2023b (23.2.0.2365128) 64-bit (glnxa64)
+                              August 23, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+Saved figures to /groups/jgoodwin/czeyi/balance/figures
+Plotting complete. Use plot_entropy_distribution(csvfile, true) to save figures.

@@ -1,0 +1,282 @@
+Loading MATLAB module...
+Starting MATLAB analysis for test condition: D01_B01_T01
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+                  R2023b (23.2.0.2365128) 64-bit (glnxa64)
+                              August 23, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+============================================================
+Starting Full Entropy Analysis for Feature: FootPitchLT_deg_
+  Old Group: gait_old_full/by_condition/G03_D01_B01_T01
+  Young Group: gait_young_full/by_condition/G01_D01_B01_T01
+============================================================
+Found 41 CSV files in old group
+Found 35 CSV files in young group
+Found a total of 76 files for analysis.
+Target feature "FootPitchLT_deg_" found at column index: 156
+
+--- PHASE 1: EXPLORING OPTIMAL PARAMETERS ---
+  Exploring: S009_G03_D01_B01_T01
+  Exploring: S013_G03_D01_B01_T01
+  Exploring: S019_G03_D01_B01_T01
+  Exploring: S040_G03_D01_B01_T01
+  Exploring: S081_G03_D01_B01_T01
+  Exploring: S102_G03_D01_B01_T01
+  Exploring: S103_G03_D01_B01_T01
+  Exploring: S104_G03_D01_B01_T01
+  Exploring: S107_G03_D01_B01_T01
+  Exploring: S109_G03_D01_B01_T01
+  Exploring: S110_G03_D01_B01_T01
+  Exploring: S112_G03_D01_B01_T01
+  Exploring: S113_G03_D01_B01_T01
+  Exploring: S116_G03_D01_B01_T01
+  Exploring: S119_G03_D01_B01_T01
+  Exploring: S120_G03_D01_B01_T01
+  Exploring: S123_G03_D01_B01_T01
+  Exploring: S125_G03_D01_B01_T01
+  Exploring: S126_G03_D01_B01_T01
+  Exploring: S127_G03_D01_B01_T01
+  Exploring: S128_G03_D01_B01_T01
+  Exploring: S129_G03_D01_B01_T01
+  Exploring: S130_G03_D01_B01_T01
+  Exploring: S131_G03_D01_B01_T01
+  Exploring: S133_G03_D01_B01_T01
+  Exploring: S134_G03_D01_B01_T01
+  Exploring: S135_G03_D01_B01_T01
+  Exploring: S136_G03_D01_B01_T01
+  Exploring: S137_G03_D01_B01_T01
+  Exploring: S138_G03_D01_B01_T01
+  Exploring: S139_G03_D01_B01_T01
+  Exploring: S140_G03_D01_B01_T01
+  Exploring: S141_G03_D01_B01_T01
+  Exploring: S142_G03_D01_B01_T01
+  Exploring: S143_G03_D01_B01_T01
+  Exploring: S145_G03_D01_B01_T01
+  Exploring: S146_G03_D01_B01_T01
+  Exploring: S154_G03_D01_B01_T01
+  Exploring: S156_G03_D01_B01_T01
+  Exploring: S157_G03_D01_B01_T01
+  Exploring: S158_G03_D01_B01_T01
+  Exploring: S001_G01_D01_B01_T01
+  Exploring: S002_G01_D01_B01_T01
+  Exploring: S003_G01_D01_B01_T01
+  Exploring: S004_G01_D01_B01_T01
+  Exploring: S005_G01_D01_B01_T01
+  Exploring: S006_G01_D01_B01_T01
+  Exploring: S007_G01_D01_B01_T01
+  Exploring: S008_G01_D01_B01_T01
+  Exploring: S010_G01_D01_B01_T01
+  Exploring: S011_G01_D01_B01_T01
+  Exploring: S012_G01_D01_B01_T01
+  Exploring: S014_G01_D01_B01_T01
+  Exploring: S015_G01_D01_B01_T01
+  Exploring: S016_G01_D01_B01_T01
+  Exploring: S017_G01_D01_B01_T01
+  Exploring: S018_G01_D01_B01_T01
+  Exploring: S020_G01_D01_B01_T01
+  Exploring: S021_G01_D01_B01_T01
+  Exploring: S023_G01_D01_B01_T01
+  Exploring: S024_G01_D01_B01_T01
+  Exploring: S025_G01_D01_B01_T01
+  Exploring: S026_G01_D01_B01_T01
+  Exploring: S027_G01_D01_B01_T01
+  Exploring: S028_G01_D01_B01_T01
+  Exploring: S030_G01_D01_B01_T01
+  Exploring: S031_G01_D01_B01_T01
+  Exploring: S032_G01_D01_B01_T01
+  Exploring: S033_G01_D01_B01_T01
+  Exploring: S034_G01_D01_B01_T01
+  Exploring: S035_G01_D01_B01_T01
+  Exploring: S036_G01_D01_B01_T01
+  Exploring: S037_G01_D01_B01_T01
+  Exploring: S038_G01_D01_B01_T01
+  Exploring: S039_G01_D01_B01_T01
+  Exploring: S063_G01_D01_B01_T01
+
+
+--- PHASE 2: GLOBAL PARAMETERS DETERMINED ---
+  Global m: 4, Global tau: 50
+
+
+--- PHASE 3: STARTING FINAL ANALYSIS ---
+
+Processing Group: old
+  Processing: S009_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S013_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S019_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S040_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S081_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S102_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S103_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S104_G03_D01_B01_T01
+[Warning: Failed to converge in 500 iterations during replicate 1.] 
+[> In kmeans/loopBody (line 484)
+In internal.stats.parallel.smartForReduce (line 136)
+In kmeans (line 346)
+In process_gait_data (line 102)] 
+    Optimal C: 4
+  Processing: S107_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S109_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S110_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S112_G03_D01_B01_T01
+    Optimal C: 5
+  Processing: S113_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S116_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S119_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S120_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S123_G03_D01_B01_T01
+    Optimal C: 5
+  Processing: S125_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S126_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S127_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S128_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S129_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S130_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S131_G03_D01_B01_T01
+    Optimal C: 5
+  Processing: S133_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S134_G03_D01_B01_T01
+    Optimal C: 5
+  Processing: S135_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S136_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S137_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S138_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S139_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S140_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S141_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S142_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S143_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S145_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S146_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S154_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S156_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S157_G03_D01_B01_T01
+    Optimal C: 4
+  Processing: S158_G03_D01_B01_T01
+    Optimal C: 4
+
+Processing Group: young
+  Processing: S001_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S002_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S003_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S004_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S005_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S006_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S007_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S008_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S010_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S011_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S012_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S014_G01_D01_B01_T01
+    Optimal C: 5
+  Processing: S015_G01_D01_B01_T01
+    Optimal C: 5
+  Processing: S016_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S017_G01_D01_B01_T01
+    Optimal C: 5
+  Processing: S018_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S020_G01_D01_B01_T01
+[Warning: Failed to converge in 500 iterations during replicate 1.] 
+[> In kmeans/loopBody (line 484)
+In internal.stats.parallel.smartForReduce (line 136)
+In kmeans (line 346)
+In process_gait_data (line 102)] 
+    Optimal C: 5
+  Processing: S021_G01_D01_B01_T01
+    Optimal C: 5
+  Processing: S023_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S024_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S025_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S026_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S027_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S028_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S030_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S031_G01_D01_B01_T01
+[Warning: Failed to converge in 500 iterations during replicate 3.] 
+[> In kmeans/loopBody (line 484)
+In internal.stats.parallel.smartForReduce (line 136)
+In kmeans (line 346)
+In process_gait_data (line 102)] 
+    Optimal C: 4
+  Processing: S032_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S033_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S034_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S035_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S036_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S037_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S038_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S039_G01_D01_B01_T01
+    Optimal C: 4
+  Processing: S063_G01_D01_B01_T01
+    Optimal C: 4
+{Unrecognized function or variable 'condition_name'.
+
+Error in process_gait_data (line 138)
+    fprintf('\n--- Individual Entropy Results for Condition: %s ---\n', condition_name);
+} 

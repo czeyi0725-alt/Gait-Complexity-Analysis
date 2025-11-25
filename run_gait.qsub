@@ -1,0 +1,21 @@
+#!/bin/bash
+#$ -N gait_analysis_COMMON_SUFFIX_PLACEHOLDER
+#$ -q long
+#$ -pe smp 1
+#$ -l h_vmem=32G
+#$ -l h_rt=06:00:00
+#$ -m ae
+#$ -M czeyi@nd.edu
+
+# 输出文件名将基于通用的D-B-T部分
+#$ -o results_COMMON_SUFFIX_PLACEHOLDER.$JOB_ID.log
+#$ -cwd
+
+echo "Loading MATLAB module..."
+module load matlab
+
+echo "Starting MATLAB analysis for condition: COMMON_SUFFIX_PLACEHOLDER"
+# 将两个独立的路径作为参数传给MATLAB函数
+matlab -nodisplay -nosplash -singleCompThread -r "process_gait_data('OLD_CONDITION_PATH_PLACEHOLDER', 'YOUNG_CONDITION_PATH_PLACEHOLDER'); exit;"
+
+echo "MATLAB script finished for condition: COMMON_SUFFIX_PLACEHOLDER"

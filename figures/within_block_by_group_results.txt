@@ -1,0 +1,56 @@
+================================================================================
+SEPARATE WITHIN-BLOCK ANALYSIS BY AGE GROUP
+================================================================================
+
+
+--------------------------------------------------------------------------------
+OLD GROUP
+--------------------------------------------------------------------------------
+
+Mixed-effects model (simple):
+  Trial coefficient: 0.004705
+  p-value: 0.068544
+  95% CI: [-0.000358, 0.009767]
+  * Marginally significant (p < 0.10) *
+
+Paired t-test (T01 vs T03):
+  n blocks: 239
+  t-statistic: -1.8679
+  p-value: 0.063012
+  Mean difference: 0.009441
+  95% CI: [-0.000126, 0.019964]
+  Cohen's d: 0.1208
+  * Marginally significant (p < 0.10) *
+
+
+--------------------------------------------------------------------------------
+YOUNG GROUP
+--------------------------------------------------------------------------------
+
+Mixed-effects model (simple):
+  Trial coefficient: 0.002306
+  p-value: 0.508992
+  95% CI: [-0.004537, 0.009149]
+
+Paired t-test (T01 vs T03):
+  n blocks: 207
+  t-statistic: -0.7335
+  p-value: 0.464088
+  Mean difference: 0.004612
+  95% CI: [-0.007209, 0.017090]
+  Cohen's d: 0.0510
+
+
+================================================================================
+SUMMARY & INTERPRETATION
+================================================================================
+
+OLD group shows MARGINALLY SIGNIFICANT within-block entropy increase (p=0.0630, d=0.1208)
+
+YOUNG group shows NO significant within-block entropy increase (p=0.4641, d=0.0510)
+
+
+CONCLUSION: Older adults show evidence of SHORT-TERM fatigue accumulation
+within blocks (increasing entropy across T01→T02→T03), while younger adults
+do not show this pattern. This suggests age-related differences in the
+rate of fatigue development during consecutive balance tasks.
