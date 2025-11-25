@@ -191,10 +191,6 @@ If you use this code or data in your research, please cite:
 }
 ```
 
-**Manuscript citation** (if published):
-```
-[Author et al. (2025). Title. Journal, Volume(Issue), Pages. DOI]
-```
 
 ## License
 
@@ -206,19 +202,19 @@ If you use this code or data in your research, please cite:
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/czeyi0725-alt/Gait-Complexity-Analysis/issues).
 
-## Acknowledgments
+## Dataset Source
 
-- Data collection: [Lab/Institution name]
-- Funding: [Grant information if applicable]
-- Computing resources: [Cluster/HPC acknowledgment]
+This project uses the NONAN GaitPrint gait database:
+
+Wiles, T. M., Mangalam, M., Sommerfeld, J. H., Kim, S. K., Brink, K. J., Charles, A. E., Kalaitzi Manifrenti, M., Mastorakis, S., Stergiou, N., & Likens, A. D. (2023). **NONAN GaitPrint: An IMU gait database of healthy young adults.** *Scientific Data, 10*, 867. https://doi.org/10.1038/s41597-023-02704-z
+
 
 ## Contact
 
 - **Author**: Zeyi Chen
 - **Email**: czeyi0725@gmail.com
 - **Institution**: University of Notre Dame
-- **Advisor**: Dr. Bill Goodwine, University of Notre Dame
-- **Lab/Group**: [Lab website or PI]
+- **Advisor**: Prof. Bill Goodwine, University of Notre Dame
 
 ---
 
