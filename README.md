@@ -28,25 +28,51 @@ This repository contains the analysis pipeline for investigating:
 ├── LICENSE                                # MIT (code) + CC-BY-4.0 (data/figures)
 ├── requirements.txt                       # Python dependencies
 ├── CITATION.cff                          # Citation metadata
+├── run_all.sh                            # Quick-start script for all analyses
 │
-├── code/                                 # Analysis scripts (not yet organized)
+├── src/                                  # Python analysis scripts
 │   ├── extract_and_plot_individual_entropy.py    # Extract trial-level entropy
 │   ├── trial_level_analysis.py                   # Cross-block trial effects
 │   ├── within_block_trial_analysis.py            # Within-block fatigue analysis
 │   ├── separate_group_within_block_analysis.py   # Age-stratified analysis
-│   └── plot_group_differences.py                 # Generate publication figures
+│   ├── plot_group_differences.py                 # Generate publication figures
+│   ├── classify_by_condition.py                  # Condition classification
+│   └── classify_and_verify.py                    # Data verification
+│
+├── scripts/                              # MATLAB scripts and job launchers
+│   ├── process_gait_data.m               # Main MATLAB processing
+│   ├── analyze_entropy_trends.m          # Entropy trend analysis
+│   ├── analyze_statistical_trends.m      # Statistical analysis
+│   ├── find_significant_features.m       # Feature selection
+│   ├── plot_entropy_distribution.m       # Distribution plots
+│   ├── plot_entropy_functions.m          # Plotting functions
+│   └── launch_all_jobs.sh                # Batch job launcher
+│
+├── jobs/                                 # Cluster job submission scripts
+│   ├── run_gait_template.qsub            # Template for processing jobs
+│   ├── run_entropy_analysis.qsub         # Entropy analysis job
+│   └── run_*.qsub                        # Per-condition job scripts
 │
 ├── figures/                              # Publication-ready figures
 │   ├── entropy_distribution.png          # Group comparison (violin + box)
 │   ├── within_block_entropy_trend.png    # Within-block trajectories
+│   ├── individual_entropies_extracted.csv  # Trial-level data (1340 obs)
 │   ├── TABLES_FOR_MANUSCRIPT.txt         # Statistical tables
 │   └── COMPREHENSIVE_RESULTS_REPORT.txt  # Full results summary
+│
+├── outputs/                              # Analysis outputs
+│   └── results/                          # Summary results
+│       ├── entropy_analysis_results.csv  # Condition-level summaries
+│       └── entropy_trends.pdf            # Trend visualizations
+│
+├── logs/                                 # Job output logs (excluded from repo)
 │
 ├── docs/                                 # Documentation and manuscript materials
 │   └── results_update.tex                # LaTeX results section
 │
 ├── data/                                 # Data access information
-│   └── README.md                         # How to obtain/access datasets
+│   ├── README.md                         # How to obtain/access datasets
+│   └── sample_small.csv                  # Small sample dataset
 │
 └── archive/                              # Legacy files and snapshots
     └── [various historical files]
@@ -81,35 +107,35 @@ pip install -r requirements.txt
 
 ### Reproducing Main Analyses
 
-The analysis pipeline consists of several steps:
+The analysis pipeline consists of several steps. All Python scripts are in the `src/` directory:
 
 1. **Extract individual-level entropy values** from analysis logs:
 ```bash
-python extract_and_plot_individual_entropy.py
+python src/extract_and_plot_individual_entropy.py
 ```
 Output: `figures/individual_entropies_extracted.csv`
 
 2. **Trial-level analysis** (cross-block trial sequence 1-9):
 ```bash
-python trial_level_analysis.py
+python src/trial_level_analysis.py
 ```
 Output: `figures/trial_level_analysis_results.txt`, `trial_level_entropy_trend.png`
 
 3. **Within-block analysis** (trials 1-3 within each block):
 ```bash
-python within_block_trial_analysis.py
+python src/within_block_trial_analysis.py
 ```
 Output: `figures/within_block_trial_analysis_results.txt`, `within_block_trial_entropy_trend.png`
 
 4. **Age-stratified within-block analysis**:
 ```bash
-python separate_group_within_block_analysis.py
+python src/separate_group_within_block_analysis.py
 ```
 Output: `figures/within_block_by_group_results.txt`, `within_block_by_group_comparison.png`
 
 5. **Generate publication figures**:
 ```bash
-python plot_group_differences.py
+python src/plot_group_differences.py
 ```
 Output: `figures/enhanced_group_comparison.png` (4-panel comparison)
 

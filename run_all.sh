@@ -32,23 +32,23 @@ echo ""
 
 # Step 1: Extract individual entropy values
 echo "[1/5] Extracting individual-level entropy values..."
-python extract_and_plot_individual_entropy.py
+python src/extract_and_plot_individual_entropy.py
 
 # Step 2: Trial-level analysis
 echo "[2/5] Running trial-level analysis (cross-block)..."
-python trial_level_analysis.py
+python src/trial_level_analysis.py
 
 # Step 3: Within-block analysis
 echo "[3/5] Running within-block analysis..."
-python within_block_trial_analysis.py
+python src/within_block_trial_analysis.py
 
 # Step 4: Age-stratified within-block analysis
 echo "[4/5] Running age-stratified within-block analysis..."
-python separate_group_within_block_analysis.py
+python src/separate_group_within_block_analysis.py
 
 # Step 5: Generate publication figures
 echo "[5/5] Generating publication figures..."
-python plot_group_differences.py
+python src/plot_group_differences.py
 
 echo ""
 echo "==================================="

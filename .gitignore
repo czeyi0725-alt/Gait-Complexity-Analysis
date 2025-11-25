@@ -28,19 +28,19 @@ octave-workspace
 gait_old_full/
 gait_young_full/
 outputs/*.mat
-outputs/*.log
-logs/*.log
 by_condition/**/S[0-9]*/
 
-# Job scripts (generated per subject)
-run_job_*.qsub
-jobs/*.qsub
+# Log files (all logs are outputs, not source code)
+logs/
+*.log
+
+# Job scripts (generated per subject - keep template only)
+jobs/run_job_*.qsub
 
 # Large output files
 *.zip
 *.tar.gz
 *.gz
-analysis_output.*.log
 
 # OS
 .DS_Store

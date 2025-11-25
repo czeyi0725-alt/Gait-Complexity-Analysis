@@ -171,7 +171,10 @@ def plot_individual_distribution(df, outdir='figures'):
 
 
 def main():
-    df = aggregate_logs('analysis_output.*.log')
+    # Look for log files in the logs/ directory
+    import os
+    log_pattern = 'logs/analysis_output.*.log' if os.path.exists('logs') else 'analysis_output.*.log'
+    df = aggregate_logs(log_pattern)
     if df.empty:
         print('No data to plot. Exiting.')
         return
