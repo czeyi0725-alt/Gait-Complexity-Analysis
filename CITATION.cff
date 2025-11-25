@@ -3,8 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Chen"
     given-names: "Zeyi"
-    orcid: "https://orcid.org/[YOUR-ORCID]"
-    affiliation: "[Your Institution]"
+    affiliation: "University of Notre Dame"
 title: "Age-Related Differences in Gait Complexity and Fatigue Effects: Analysis Code"
 version: 1.0.0
 date-released: 2025-11-25

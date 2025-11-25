@@ -6,8 +6,8 @@ Due to privacy and institutional restrictions, the raw gait data used in this st
 
 To request access to the original data:
 
-1. **Contact**: [Your email or PI's email]
-2. **Institution**: [Lab/Institution name]
+1. **Contact**: czeyi0725@gmail.com or Dr. Bill Goodwine (University of Notre Dame)
+2. **Institution**: University of Notre Dame
 3. **Requirements**: 
    - IRB approval from your institution
    - Data use agreement

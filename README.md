@@ -183,7 +183,7 @@ If you use this code or data in your research, please cite:
 
 ```bibtex
 @software{balance_entropy_analysis,
-  author = {[Your Name]},
+  author = {Zeyi Chen},
   title = {Age-Related Differences in Gait Complexity and Fatigue Effects},
   year = {2025},
   publisher = {GitHub},
@@ -214,9 +214,10 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## Contact
 
-- **Author**: [Your Name]
-- **Email**: [Your email]
-- **Institution**: [Your institution]
+- **Author**: Zeyi Chen
+- **Email**: czeyi0725@gmail.com
+- **Institution**: University of Notre Dame
+- **Advisor**: Dr. Bill Goodwine, University of Notre Dame
 - **Lab/Group**: [Lab website or PI]
 
 ---
